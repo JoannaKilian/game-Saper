@@ -2,6 +2,13 @@
     --promary-color: #c0c0c0;
     --primary-color--dark: #808080;
     --alarm-color: #f80000;
+    
+    --cell-size: 4rem;
+    --game-padding: 1.5rem;
+    --border-width: 0.3rem;
+    --cells-in-row: 8;
+
+    --game-max-width: calc(var(--cell-size)* var(--cells-in-row) +)
 }
 
 @font-face {
